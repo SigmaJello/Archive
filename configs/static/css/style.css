@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'SigmaFont';
+    src: url('../font.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+body {
+    background-color: #cccccc;
+    margin: 0 0 0 0;
+    font-family: SigmaFont;
+    font-size: 20px;
+}
+
+.background-holder {
+    background-image: url("../img/sigma.jpg");
+    background-size: cover;
+}
+
+.main {
+    background: linear-gradient;
+    height: 1000px;
+    text-align: center;
+}
+
+.logo {
+    margin-top: 50px;
+}
+
+.gui {
+    background: #dddddc;
+    /*width: 20%;
+    margin-right: auto;
+    margin-left: auto;*/
+    margin-top: 120px;
+}
+
+.gui h1 {
+    font-size: 27px;
+    font-weight:normal;
+}
+
+.gui .container-fluid .row {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.gui div div a {
+    color:black;
+}
+.gui div div a:hover {
+    color: #ff2c00;
+}
+
+.footer {
+    background: #292929;
+    min-height: 200px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
