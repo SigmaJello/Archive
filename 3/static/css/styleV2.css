@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'SigmaFont';
+    src: url('../font.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+body {
+    /*background-color: #cccccc;*/
+    background-color: #ffffff;
+    margin: 0 0 0 0;
+    font-family: SigmaFont;
+    font-size: 20px;
+}
+
+.background-holder {
+    background-image: url("../img/mainmenubackground.png");
+    background-size: cover;
+}
+
+.main {
+    height: 1000px;
+    text-align: center;
+    color: white;
+}
+
+.main-small {
+    height: 200px;
+}
+
+.canvas-small canvas {
+    height: 200px !important;
+}
+
+.main form {
+    text-align: left;
+}
+
+.logo {
+    margin-top: 50px;
+}
+
+.gui {
+    background: rgba(255, 255, 255, .19);
+    border: 2px solid rgba(160, 160, 160, .58);
+    /*width: 20%;
+    margin-right: auto;
+    margin-left: auto;*/
+    margin-top: 60px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.gui h1 {
+    font-size: 27px;
+    font-weight: normal;
+}
+
+.gui .container-fluid .row {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.gui div div a {
+    color: black;
+}
+
+.gui div div a:hover {
+    color: #ff2c00;
+}
+
+.footer {
+    background: #292929;
+    min-height: 200px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+canvas {
+    position: absolute;
+    vertical-align: bottom;
+    top: 0;
+}
+
+.form-control {
+    border-radius: 0px;
+    background-color: rgba(160, 160, 160, .3);
+    color: white;
+    border: 2px solid #a2a2a2;
+    transition-property: border-color;
+    transition-duration: 0.125s;
+}
+
+.form-control:focus {
+    box-shadow: unset;
+    box-shadow: 0 0 5px rgba(160, 160, 160, .8);
+    border-color: white;
+    background-color: rgba(160, 160, 160, .3);
+    color: white;
+}
+
+.btn-light {
+    border-radius: 0px;
+    background-color: rgba(160, 160, 160, .3);
+    border: 2px solid #a2a2a2;
+    color: white;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.form-text {
+    color: #dbdbdb;
+}
+
+.success {
+    color: #00c400;
+}
+
+.error {
+    color: red;
+}
+
+.features p {
+    font-size: 17px;
+}
+
+.features .row div {
+    margin-top: 50px;
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.plan {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.plan .plan-content {
+    border: 2px solid #cccccc;
+    border-top: 0px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.plan .plan-title {
+    font-size: 30px;
+    background-color: #cccccc;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.plan-title-premium {
+    background-color: #308092 !important;
+}
+
+.plan-price {
+    padding-top: 10px;
+    font-size: 35px;
+}
+
+.plan-price .duration {
+    font-size: 18px;
+}
+
+.plan-rows {
+    margin-top: 30px;
+}
+
+.plan-rows div {
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.plan-content .btn-light {
+    border-radius: 4px;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.plan-content .btn-light:hover {
+    color: white;
+    background-color: #a2a2a2;
+    border-color: #a2a2a2;
+}
