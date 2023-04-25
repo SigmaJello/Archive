@@ -9,7 +9,7 @@ An **unofficial** archival project & community Discord Server for the popular ha
 For support, join our Discord Server.
 
 
-![Discord Server Invite](https://invidget.switchblade.xyz/sigma-archives-989789190692675615)
+[![Discord Server Invite](https://invidget.switchblade.xyz/sigma-archives-989789190692675615)](https://discord.com/invite/sigma-archives-989789190692675615)
 
 
 
